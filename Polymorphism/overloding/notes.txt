@@ -1,0 +1,169 @@
+// 20-02-2024
+
+
+Notes
+
+it is ffeature that allow 1 interface to be used for general class of action 
+an operation may display different behaviour for different object /instance 
+the behaviour depends on the type of data used in the operation 
+polymorphism play an important role in allowing object having different internal structure 
+to share the same external interface 
+
+
+polymorphism is mostly used in inheritance 
+following concept explain diffent type of polymorphism in java.
+
+1) overloding 
+2) overriding
+
+1) Overloding : -
+				 difining multiple method in a class having the same name but different parameters 
+				 this concept is known as method overloding.
+
+
+Example : -				 
+class ClassName{
+
+
+	method1(int a , int b){
+		statement;
+		
+	}
+	
+	method1(int a, int b, int c ){
+		statement;
+	
+	}
+	
+
+}
+_____________________________________________________________________________________________________________________
+
+ 2) Overriding :-
+				  redifine base class method in a child class with same name and same parameter 
+############################################################################################################################
+
+
+21-02-2024 notes :--
+
+						
+Difference between overloding and overriding 
+
+✨ OVERLODING (Love marrage):- 
+			  1) Method name should be same 
+			  2) two classes not in is a relationship 
+			  3) return type should not expected..(NO restriction).
+			  4) List of parameter Must be Different.
+			  5) Private ,final ,static Method.(WE can Overlod)
+			  6) Access specifier . NO restriction.
+			  7) No restriction 
+			  8) Method resolution : Always Taken compile time refrance based on refreance type at compile time .
+			  9) Also known as late binding ,dynamic binding ,run time polymorphism.
+			  
+✨ OVERRIDING (Arrange marrage):- 
+			  1) Method name should be same
+			  2) two classes in is a relationship
+			  3) Up to java 1.4 return type Must be same..😎
+				 Java onwords 1.5 its co-varient.
+			  4) List of partameter must be same.
+			  5) Private ,final ,static Method.(we cannot override)
+			  6) Access specifier . Always increases the scope not reduces 
+			  7) Always throw the child class 
+			  8) Method resolution : Always taken by JVM base of on runtime object
+			  9) Also Known as Early binding , static binding , compile time polymorphism
+			  
+			  
+			  
+_____________________________________________________________________________________________________________________
+
+
+😁 STRING :-
+			 String is a sequence of character 
+			 string is a immutable(we cant change the value) class in a java.
+			 String class used to create the string class object.
+			 THere are two way to create the string
+			 1) By litral 
+				example : String s1="Kolhapur";
+			 2) By using New keyword 
+				example : String s2=new String("Peth Vadgaon");
+			 
+String methods and their usage is explained in the programs...!🙄
+
+//String Mehtods
+
+class test
+{
+	public static void main(String[] args)
+	{
+		String s1="maz nav";
+
+/*//stsrtsWith
+
+		System.out.println("Given String s1="+s1);
+		System.out.println(s1.startsWith("Ma"));
+		
+		System.out.println(s1.startsWith("av"));
+		
+		System.out.println(s1.startsWith("Maz"));
+		
+//endsWith
+		
+		System.out.println(s1.endsWith("Maz"));
+		System.out.println(s1.endsWith("nav"));
+		
+//charAt
+		
+		System.out.println(s1.charAt(4));
+
+//Replace && Replace All
+
+		System.out.println(s1.replace("m","M")); 	
+
+		System.out.println(s1.replaceAll("nav","name"));	
+		
+//indexOf
+
+			System.out.println(s1.indexOf("v"));
+			System.out.println(s1.indexOf("nav"));*/
+			
+//lastIndexOf
+
+			System.out.println(s1.lastIndexOf("a"));
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+			  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

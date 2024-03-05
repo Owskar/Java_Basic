@@ -1,0 +1,45 @@
+1) write a program for static method having data member name city univercity
+make univercity as static 
+
+2) write a program to check number is prime number is not
+
+3) write a program to read 4 digit number and make addition of first and third digit and second and forth digit 
+
+4) write a program to reaad a number and print sum of all even numbers and odd numbeers separately
+
+5) person DM- name
+		      city
+		  MF- setdata()
+		      showData()
+			  
+	emp extends parson
+		dm -wages 
+		    wdays
+		mf- setdata()
+		    showdata()
+			paymet()
+			
+			
+6) writea a program to read product name price and quantity calculate bill display bill of 
+   three customers individual and also total bill amount 
+   
+7)
+
+#****
+*#***
+**#**
+***#*
+****#
+
+
+1
+22
+333
+4444
+
+8)writea a progrma to read 3 numbers and print largest
+
+
+9)write a progrma to read 2 numbers and print all numbers from first number to second
+
+10)  wrte a program to read name and age and check candidate is eligible for bank exam or not age must be 22 to 30

@@ -1,0 +1,31 @@
+TestNO 1:
+
+1) write a program to check number is palendrome or not
+
+2) write a program to read a number and print table of that number 
+
+3) writea a program to read year and check year is leap or not
+
+4) write a program to read three number and print largest
+
+5) write a program for swich case 
+
+6) Design a class car containing data member 
+				carname,color,modelname,CC,prize
+				and member function setData and showData
+				(take the user input values)
+				
+7) write a program for paramiterized constructor create 2 obj
+8) write a prg for dmart billing system using do while loop
+9) write a program to reaad two nummber and swap that two numbers without using third varable
+10) i)  1
+		2 2
+		3 3 3
+		4 4 4 4
+		5 5 5 5 5
+	
+	ii) a  b c d e
+		b c d e
+		c d e
+		d e 
+		e

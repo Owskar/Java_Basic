@@ -1,0 +1,17 @@
+/*
+5) person DM- name
+		      city
+		  MF- setdata()
+		      showData()
+			  
+	emp extends parson
+		dm -wages 
+		    wdays
+		mf- setdata()
+		    showdata()
+			paymet()
+			
+*/
+
+
+class Person

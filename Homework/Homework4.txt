@@ -1,0 +1,86 @@
+/*
+Homework 
+1) write a program to read a positive number and print all number form 1 to that number.
+
+2) write a program to read a name and positive number print that name up to that number. 
+
+3) write a program a positive number and print all even number from 2 to that number.
+
+
+4) 9 8 7 6 5
+   9 8 7 6 5
+   9 8 7 6 5
+   9 8 7 6 5
+   9 8 7 6 5
+   
+5) 1 2 3 4 5 4 3 2 1
+   1 2 3 4 5 4 3 2 1
+   1 2 3 4 5 4 3 2 1
+   1 2 3 4 5 4 3 2 1
+   1 2 3 4 5 4 3 2 1
+   
+6) 
+   1 2 3 4 5
+   5 4 3 2 1 
+   1 2 3 4 5
+   5 4 3 2 1
+   1 2 3 4 5
+   5 4 3 2 1
+   
+7) 1 2 3 4 5
+   9 8 7 6 5
+   1 2 3 4 5
+   9 8 7 6 5
+   1 2 3 4 5
+   9 8 7 6 5
+   
+8) 
+	1 2 3 4 5
+	1 2 3 4 5
+	1 2 3 4 5
+	9 8 7 6 5
+	9 8 7 6 5
+	9 8 7 6 5
+	
+9) 
+	* * * * *
+	* * * * *
+	* * * * *
+	* * * * *
+	* * * * *
+	
+10)
+
+	A B C D E
+	A B C D E
+	A B C D E
+	A B C D E
+	A B C D E
+	
+11)
+
+	9 7 5 3 1
+	9 7 5 3 1
+	9 7 5 3 1
+	9 7 5 3 1
+	9 7 5 3 1
+	
+12)
+
+	a b c d e
+	a b c d e
+	a b c d e
+	a b c d e
+	a b c d e
+	
+13)
+
+    1
+	1 2
+	1 2 3
+	1 2 3 4
+	1 2 3 4 5
+	 
+	 
+
+*/

@@ -1,0 +1,29 @@
+/*
+class name emp
+		emp id
+		name
+		job
+		wages
+		wday
+		
+Member function- setData
+				 showData
+				 Payment
+				 
+				 
+##############################################################
+
+class name student
+			roll no 
+			name
+			sub
+			sub2
+			sub3
+			sub4
+			sub5
+	MF-		setData()
+			showData()
+			result()
+			
+
+*/

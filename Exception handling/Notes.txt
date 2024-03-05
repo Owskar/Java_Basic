@@ -1,0 +1,286 @@
+27-02-24
+
+❤️ Notes :-
+
+✨ Features of java : 
+					   1) Simple
+					   2) Object oriented
+					   3) Portable
+					   4) Platform independent
+					   5) Secure
+					   6) Robust(Strong)
+					   7) Architecture nutural
+					   8) Dynamic
+					   9) Interpreter
+					   10) High performance
+					   11) Multithreaded
+					   12) Distributed
+					   
+✨ Uses of Java :
+				   1) Desktop Applicaation (Media Player , Antivirous)
+				   2) Web Application 
+				   3) Enterprize application(Banking application, Dmart application)
+				   4) Mobile application
+				   5) Emberded System
+				   6) Smart cart
+				   7) Robotics
+				   8) Gaming
+
+✨ Versions of Java :
+						02 Jan  1996 ---Jdk 1.0
+						14 Feb  1997 ---Jdk 1.1
+						08 Dec  1998 ---Jdk 1.2
+						08 May  1999 ---Jdk 1.3
+						06 Feb  2000 ---Jdk 1.4
+						30 Sept 2002 ---Jdk 1.5
+						01 Dec  2006 ---Jdk 1.6 (JdkSE6)
+						28 Jul  2011 ---Jdk 1.7 (JdkSE7)
+						16 Mar  2014 ---Jdk 1.8 (JdkSE8)
+						21 Sept 2017 ---Jdk 1.9 (JdkSE9)
+						
+______________________________________________________________________________________________________________________		
+✨ C : 
+			1) c is procedure oriented language 
+			2) c is not secure language
+			3) c is not portable language
+			4) c uses pointers 
+			5) c does not have its own Run time environment
+			6) c is Platform dependent
+			7) c is not multithrading language
+		
+✨ Java :
+		   1) java is Object Oriented language
+		   2) java is secure language
+		   3) java is portable language
+		   4) java doesnot uses pointers
+		   5) java has its own Run time environment
+		   6) java is platform independent
+		   7) java is multithrading language
+
+		 
+
+	  
+______________________________________________________________________________________________________________________
+
+✨ JVM :-	JVM stands for java virtual machine it is abstract machine it doesnot have physical existance it is 
+			platform dependent it perform following task 
+			
+			1) load the code 
+			2) varify the code 
+			3) execute the code 
+			4) provide run time environment
+		
+✨ JRE :- JRE stands for java run time environment it provide run time environment it is implementation of JVM
+	   it is physically exist it contain JVM set of libriarys and other files 
+
+
+✨ JDK :- It stands for Java development kit it is physically exist it contain JRE development kit and other files 
+
+__________________________________________________________________________________________________________________________
+
+
+😁 Exception handling : 
+						undexpected unwanted event that disturb the normal flow of program is known as Exception
+						Tyer puncher exception
+						Sleeping exception
+						Holl Tickit missiong exception
+						File not found exception
+						
+						It is highly recommanded to handle exception the main objective or exception handling is 
+						meaningfull the exception handling doesnot mean by repairing the exception we have to provide 
+						alternate way to continue rest of program normally this concepts is known as exception handling
+						
+						Example: A programmer require to read the data from remote file located at Katmandu
+								 at the run time if Katmandu file not available our program should not be trminate 
+							 	 abnormally we have to provide some local file and continue rest of program normally
+								 these way of defining alternative is nothing but exception handling 
+								 
+					   © SYNTAX : 
+								
+								try{
+								
+								Risky code;
+								
+								
+								}
+								catch(Exception e1){
+								
+								Statement(e);
+								
+								}
+								
+								
+						© E.G. : 
+						
+								try {
+								
+								Read data from Remote file 
+								located at katmandu;
+								
+								
+								}
+								
+								catch(FileNotFoundException e1){
+								use local file and continue 
+								rest of code normally;
+								
+								}
+_______________________________________________________________________________________________________________________________________
+
+
+28-02-24
+
+
+❤️ Notes :-
+
+
+✨ Run time stack machanism :
+						      for every thread JVM will be create run time stack each and every method performed by JVM that thread 
+							  will be stored in corresponding stack each entry of stack is called active record or stack frame after 
+							  completing every method call all the corresponding entry from the stack will be removed after completing 
+							  all method call the stack become empty that empty stack will be distory by JVM just before the terminating 
+							  program.
+							  
+							  
+							  
+							  
+✨ Default exception Handling :
+								inside a method if any exception occur a method in which raise is resposnce to create an excption objective
+								by including following information
+								1) Name of excption
+								2) Discription of exception
+								3) Location at which exception occur
+								after creating exception object method handoverd to the JVM ,Jvm will check weather the method contain 
+								any exception handling code or not if method class doesnot contain any exception handling code then JVM
+								terminate that method abnormally and remove corresponding entry from the stack then JVM identify the 
+								caller method and check weather the caller method contain any exception handling code or not if the 
+								caller method doesnot contain exception code then jvm caller method abnormally corresponding entry from the stack this process continue until main method if main method also doesnot contain any exception handlling code then JVM terminate main method abnormally and remove the corresponding entry from the stack 
+								the JVM handover the responcibility to default exceptioon handler which is part of jvm default exception handler print exception information in followng format and terminate program abnormally .
+								
+								Exception in Thread : "abc"
+								Name of Exception : Description 
+									stack traces
+								
+								
+								
+								
+________________________________________________________________________________________________________________________________________
+
+
+29-02-24
+
+
+❤️ Notes :-
+
+			IMP : - exception vs error
+			
+			Exception :-
+						1) exception are mostly cause by programmer 
+						2) Most of time exception are recover by programmer
+						3) example: 
+									i) run time exception
+									ii) Arithmatic exception
+			
+			Error : -
+						1) MOST of time errors are not cause by programmer
+						2) most of time errors are not recover by programmer
+						3) example : 
+									i) acceleration errror
+									ii) virtual machine error
+---------------------------------------------------------------------------------------------------------------------------------				
+						
+			✨IMP : - checked exception VS unChacked exception
+
+			chacked :- 
+						1) those exception are checked by compiler at compile time is called chacked exception.
+						2) except run time exception and its child errors all are checked exception
+						3) example : SQL exception,servlet exception
+			unChacked :                                                                                          
+						1) those exception are not checked by compiler at compile time is called unChacked exception
+						2) run time exception and its child error and its child all are unChacked exception
+						3) example : runtime exception , acceleration error
+----------------------------------------------------------------------------------------------------------------------------------
+
+			✨IMP : - partially checked exception VS fully Chacked exception
+					
+					partially checked : 
+										1) a checked exception said to be partially checked if and only if its some of child classes are unchaked 
+										example : throable and exception
+					fully Chacked exception :
+										1) a checked exception said to be fullychacked if and only if its all child classes are checked
+										example : IO exception
+										
+										
+					NOTE : only possible partially chacked exception in java are throable and exception
+					
+__________________________________________________________________________________________________________________________________
+
+✨try block in java : -
+
+	java Try block used to write risky code that code might be throug an exception try block is used within the method it must be followed by either catch block or finally block .
+	
+	try{
+	Risky code ;
+	
+	}
+	catch(Exception){
+	
+	S.O.P(e);
+	}
+	
+OR
+
+
+	try {
+	Risky code;
+	
+	}
+	finally{
+	
+	Statemet;
+	}
+
+✨ java catch block :-
+					java catch block is used to handle the exception it must be used after the try block you can use multiple catch block 
+					within a single try block 
+					
+					
+					
+✨ Nested try block :
+					 try within try block is known as nested try block 
+					 
+					 
+					 try {
+					 
+					 try {
+					 risky code;
+					 }
+					 catch(exception e){
+					 sop(e);
+					 }
+					 
+					 
+					 }
+
+✨ java finally block : 
+					It is used to write important code it is always executed weather exception is handled or not it is used to execute important code such as closing connection finally block can be used to cleanup code such as closing a file , closing a connection related to database.
+					
+					
+					
+✨ Final Keyword :
+					
+					
+					
+					
+___________________________________________________________________________________________________________________________________________		
+✨ Difference between final finally finalize
+
+	final : -
+			  1) It is modifier applicable for variable method class 
+			  2) 
+			  
+	finally : -
+				
+	finalize :-
+				
+					
