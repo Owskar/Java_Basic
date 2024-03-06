@@ -17,6 +17,7 @@ public class Q9 {
     public static void main(String[] args) {
         String num = JOptionPane.showInputDialog("Enter the number ");
         int n = Integer.parseInt(num);
+
         for (int i = 1; i <= 10; i++) {
 
             int count = i;

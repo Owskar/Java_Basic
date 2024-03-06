@@ -143,7 +143,6 @@ ________________________________________________________________________________
 							  
 							  
 							  
-							  
 ✨ Default exception Handling :
 								inside a method if any exception occur a method in which raise is resposnce to create an excption objective
 								by including following information
@@ -263,8 +262,8 @@ OR
 					 }
 
 ✨ java finally block : 
-					It is used to write important code it is always executed weather exception is handled or not it is used to execute important code such as closing connection finally block can be used to cleanup code such as closing a file , closing a connection related to database.
-					
+						It is used to write important code it is always executed weather exception is handled or not it is used to execute important code such as closing connection finally block can be used to cleanup code such as closing a file , closing a connection related to database.
+						
 					
 					
 ✨ Final Keyword :
@@ -277,10 +276,90 @@ ________________________________________________________________________________
 
 	final : -
 			  1) It is modifier applicable for variable method class 
-			  2) 
+			  2) IF we declear any veriable as final we cant re-assign it 
+			  3) If we declear any method as final we cant override it 
+			  4) If we are declear any class as final we cant extend it 
+			  5) 
 			  
-	finally : -
+	finally : - 
+				1) FInally is a block which is associated with the try and catch block 
+				2) finally is always executed weather exception is handled or not 
+				3) finally block is used to write the important code 
+				4) finally block is used to cleanup activity related to database 
+				5) 
 				
-	finalize :-
+	finalize :- 
+				1) Finalize is a method which is presenting java.lang package 
+				2) finlize method is used for garbage collection 
+				3) it perform the cleanup activity related to object 
+				4) finalize method call just before distorying object
 				
+				
+___________________________________________________________________________________________________________________________________________
+				
+✨ Difference between throw and throws 
+
+	throw :
+			1) It has to explicitly throw an exception
+			2) throw is followed by object
+			3) we cant throw multiple exception
+			4) throw is used within the method 
+			
+	throws :
+			1) it has used to declear an exception 
+			2) throws is followed by class
+			3) throws can declear multiple exception 
+			4) throws is used with the method signature 
+			
+
+
+
+___________________________________________________________________________________________________________________________________________
+
 					
+thread :
+		thread is a flow of execution each independent part of program is known as thread 
+		
+
+😁 Multithreading : 
+					Two or more than two thread accessing on same resource simultaniously this is known as multithrading 
+					
+✨ Advantage of Multithreading :
+								1) Increase the performance 
+✨Application of Multithreading :
+								1) Video games 
+								2) Animation movies
+								3) Multimedia grafix
+								4) Client server program 
+								
+🙄 Multitasking :
+				  executing several task simultaniously is known as multitasking . Multitasking is divided in two parts 
+				  1) Process base multitasking 
+				  2) Thread base multitasking 
+				  
+				  
+	✨ process base multitasking :
+								i) executing several task simultaniously where each task is separate independent process such type of process 
+								is known as process base multitasking 
+
+								example : 
+										at a same time typing java program in notepad++ , listening audio songs , downloding movie or file,talking with friend , and sending reply on Whatsapp or instagram 
+										
+								ii) it is OS base multitasking
+
+
+	✨ Thread base multitasking : 
+								 i) executing several task simultaniously where each task is separate independent part of the same program 
+									is called thread base multitasking . these type of multitasking is best sutaed for programming 
+									
+									
+									
+									
+______________________________________________________________________________________________________________________
+
+✨ Defining thread 	
+					There are two way to define thread 
+					1) by extending thread class
+					2) by implementing runnable interface
+					
+									
