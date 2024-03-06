@@ -272,6 +272,8 @@ OR
 					
 					
 ___________________________________________________________________________________________________________________________________________		
+❤️ 05-03-24
+
 ✨ Difference between final finally finalize
 
 	final : -
@@ -317,8 +319,8 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________________
 
 					
-thread :
-		thread is a flow of execution each independent part of program is known as thread 
+*-*-thread :
+			thread is a flow of execution each independent part of program is known as thread 
 		
 
 😁 Multithreading : 
