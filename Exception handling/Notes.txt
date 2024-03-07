@@ -222,8 +222,8 @@ ________________________________________________________________________________
 	Risky code ;
 	
 	}
-	catch(Exception){
 	
+	catch(Exception){
 	S.O.P(e);
 	}
 	
@@ -284,7 +284,7 @@ ________________________________________________________________________________
 			  5) 
 			  
 	finally : - 
-				1) FInally is a block which is associated with the try and catch block 
+				1) Finally is a block which is associated with the try and catch block 
 				2) finally is always executed weather exception is handled or not 
 				3) finally block is used to write the important code 
 				4) finally block is used to cleanup activity related to database 
@@ -364,4 +364,12 @@ ________________________________________________________________________________
 					1) by extending thread class
 					2) by implementing runnable interface
 					
-									
+					
+___________________________________________________________________________________________________________________________________________
+
+❤️ 07-03-24
+
+✨ Thread.current Thread :
+						   
+							
+						 

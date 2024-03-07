@@ -19,8 +19,8 @@ class test{
 		SMT t3 = new SMT();
 		
 		t2.start();
-		try{
 			t2.join();//pass the timestamp in the join(5000)
+		try{
 		}
 		catch(Exception e){
 			System.out.println(e);
