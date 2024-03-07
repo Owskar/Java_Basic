@@ -20,7 +20,7 @@ class test{
 		
 		t2.start();
 		try{
-			t2.join();
+			t2.join();//pass the timestamp in the join(5000)
 		}
 		catch(Exception e){
 			System.out.println(e);
