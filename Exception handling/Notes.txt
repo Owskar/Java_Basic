@@ -357,7 +357,7 @@ ________________________________________________________________________________
 									
 									
 									
-______________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________
 
 ✨ Defining thread 	
 					There are two way to define thread 
@@ -371,5 +371,19 @@ ________________________________________________________________________________
 
 ✨ Thread.current Thread :
 						   
+						   
+						    
+___________________________________________________________________________________________________________________________________________
+
+❤️ 08-03-24
+
+					   
+Priority :
+			Each thread has priority priority is reapresented by number 1 to 10 in most of cases thread sheduler shedule the thread according to their priority ( It is known as premitive sheduler ) but there is no garranty because its effect on the JVM specification that which sheduling its choise there are 3 type of priority 
+			1) MIN  -- 1
+			2) NORM -- 5
+			3) MAX  -- 10
+			
+			
 							
 						 

@@ -9,8 +9,8 @@ class yatra extends Thread{
 	}
 }
 
-
 class test{
+
 	public static void main(String args[]){
 		yatra t1= new yatra();
 		yatra t2= new yatra();
