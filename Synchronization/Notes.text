@@ -1,0 +1,9 @@
+❤️ Notes : - 
+			✨ Synchronization :Synchronization is the capability to control the access of multiple threads on to any shared 				resource 
+			
+			
+			Advantages :
+						1) Thread safe 
+						2) resource safe
+			Disadvantage :
+							1) performance low
