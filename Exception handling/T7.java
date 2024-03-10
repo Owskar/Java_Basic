@@ -8,7 +8,7 @@ class bestfriend extends Thread{
 				System.out.println(e1);
 			}
 			if(i>5 && ((Thread.currentThread().getName()).equals("Tanvi"))){
-				Thread.currentThread().yield(); //suspend() yield() 
+				Thread.currentThread().yield(); //suspend() stop() 
 			}
 			else{
 				System.out.println(Thread.currentThread().getName()+" says manoj kdhi yenar karad la "+ i+" time vicharat ahe");

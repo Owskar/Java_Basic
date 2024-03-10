@@ -7,3 +7,35 @@
 						2) resource safe
 			Disadvantage :
 							1) performance low
+							
+							
+____________________________________________________________________________________________________________________________________________
+
+❤️ Notes : -	09-03-24
+
+				String Buffer and String Builder
+
+				
+				
+				✨ String :- 
+							1) String is immutable 
+							2) performance is low
+							3) It is synchronized
+							4) Thread is safe
+							5) resource is safe
+							
+				✨ String Buffer :-
+							1) String mutable
+							2) Performance is low
+							3) It is synchronized
+							4) THread is safe
+							5) resource is safe
+				✨ String Builder :-
+							1) String mutable
+							2) Performance is high
+							3) It is non-synchronized
+							4) thread is unsafe
+							4) resource is unsafe
+							
+							
+							

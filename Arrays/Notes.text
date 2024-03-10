@@ -1,0 +1,33 @@
+✨ Array :
+			Array is collection of similar type of elements having continuous memory allocation array are used to store multiple values in single variable insted of declearing separate variables for each value java array is an object that contain elements of similar datatype we can store only fixed sized of elements array work on index bases the first element of array is stored at 0th index 
+						int    a[]    5
+		Syntax : - //datatype array arraysize
+					int a[5]={2,3,4,5,6};
+					
+					
+ Advantage of array :- 
+						1) code optimization
+											It make the code optimize and we can retrive or sort the data 
+						2) random access :
+											we can get any data located at index position
+											
+Disadvantage of array :- 1) fixed limit 
+										we can store only fixed size of elements in the array 
+										it doesnot grow its size at runtime to solve this problem collection framework is used in java\
+
+Type of array : - 
+					1) single dimensional array
+					2) multidimensional array
+					
+					1) single dimensional array : - 
+												datatype []arrayname;
+												OR
+												datatype []arrayname;
+												OR
+												datatype arrayname[];
+												
+Initialization of array :- 
+						synatax
+							datatype ref_variable[] = new datatype[size];
+						E.G : -
+							int         a[]         =new   int[9];
