@@ -1,0 +1,24 @@
+1) write a program to avoid the dedlock 
+2) implement the following method of thread 
+	join 
+	getName 
+	setName
+	isDemon
+	setDemon
+	
+3) difference between final finally finalize 
+
+4) draw the lifecycle of thread 
+
+5) difference between checked exception and unchacked exception
+	exception and error
+6) draw the hirarchy of exception
+
+7) write a program to read a number and check the number is amstrong number or not 
+
+8) implement the five methods of string builder 
+
+9) write a program to read number and check the number is pelendrome or not \
+
+10) wire a program to read a string and replace the vovels with # and print the string 
+

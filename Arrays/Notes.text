@@ -28,6 +28,6 @@ Type of array : -
 												
 Initialization of array :- 
 						synatax
-							datatype ref_variable[] = new datatype[size];
 						E.G : -
+							datatype ref_variable[] = new datatype[size];
 							int         a[]         =new   int[9];
