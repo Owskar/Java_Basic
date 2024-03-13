@@ -1,0 +1,6 @@
+1) write a program to get maximum element by passing array to method 
+2) write a program to count total number of elements by passing array to method 
+3) write a program to count total number of four by passing array to method // {1,2,3,4,5,4,4,6,7}
+4) write a program to count total number of seven and zero by passing array to method separately // {1,2,7,0,6,0,7,7}
+5) write a progrma to print array elements by passing array to method and also print total number of element in array 
+6) write a program to print sum avarage mean and max from array element by passing array to 4 different methods

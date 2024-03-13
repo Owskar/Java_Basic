@@ -5,17 +5,17 @@
 					int a[5]={2,3,4,5,6};
 					
 					
- Advantage of array :- 
+✨ Advantage of array :- 
 						1) code optimization
 											It make the code optimize and we can retrive or sort the data 
 						2) random access :
 											we can get any data located at index position
 											
-Disadvantage of array :- 1) fixed limit 
+✨ Disadvantage of array :- 1) fixed limit 
 										we can store only fixed size of elements in the array 
 										it doesnot grow its size at runtime to solve this problem collection framework is used in java\
 
-Type of array : - 
+✨ Type of array : - 
 					1) single dimensional array
 					2) multidimensional array
 					
@@ -26,8 +26,32 @@ Type of array : -
 												OR
 												datatype arrayname[];
 												
-Initialization of array :- 
+✨Initialization of array :- 
 						synatax
 						E.G : -
 							datatype ref_variable[] = new datatype[size];
 							int         a[]         =new   int[9];
+							
+							
+							
+							
+✨ Array passing to method : - we can pass the array to the method so we can reuse the same logic to any array 
+___________________________________________________________________________________________________________________________________________
+
+
+✨ Multidimensional arrays : 
+							datatype [][] arrayname;
+									OR
+							datatype [][]arrayname;
+									OR
+							datatype arrayname[][];
+									OR
+							datatype[] arrayname[];
+							
+							
+							
+							EG : int a a[][] = new int[3][3];
+							
+							
+							
+							
