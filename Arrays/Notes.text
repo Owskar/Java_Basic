@@ -53,5 +53,57 @@ ________________________________________________________________________________
 							EG : int a a[][] = new int[3][3];
 							
 							
+___________________________________________________________________________________________________________________________________________
+
+
+
+
+✨ Difference between arry and collection : -
+		
+		
+		Array : -
+					1) array is fixed in size 
+					2) array store only Homoginious datatype or element
+					3) With respect to memory menagement array is not recommandaded to use.
+					4) With respect to performance array is recommanded to use
+					5) in array there is no Underlying standard dataStructure
+					6) Array can hold both premitive and non premitive datatype of element
+		collection :
+					1) collection is growable in nature i.e is based on our requirement we can increase or decrease in size 
+					2) collection can store Homoginious and heteroginious Datatype or element 
+					3) with respect to memory management collection is recommandaed to use.
+					4) With respect to performance collection are recommanded to use
+					5) every collection class is implemented base on standard dataStructure.
+					6) collection can hold only object.
+				
+				
+___________________________________________________________________________________________________________________________________________
+
+				
+		
+		
+✨ Collection: 
+				collection is a framework that provide architecture to store and manupulate group of object all the opereation that will perform on the data such as searching sorting , adding , and removing can be perform by java collection.
+				collection represent single element object framework provide readyment architecture collection represent set of classes and interfaces 
+
+
+___________________________________________________________________________________________________________________________________________
+
+✨ List interface :
+				i) ArrayList Class :
+									java arraylist class is a dynamic array for sorting the elements it inherit from abstract arraylist class and implement from list interface 
+									
+									
+					Imp points :
+								1)array list class can contain some duplicate elements 
+								2) it maintain insertion order
+								3) it is non synchronize so thread is unsafe 
+								4) it allow random access interface because array work on index bases
+								5) in a array list the manuplation is slow because shifting is needed 
+								6) arraylist uses dynamic array to store the elemets of object 
+								
+		
+							
+							
 							
 							
