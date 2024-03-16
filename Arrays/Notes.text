@@ -82,28 +82,3 @@ ________________________________________________________________________________
 				
 		
 		
-✨ Collection: 
-				collection is a framework that provide architecture to store and manupulate group of object all the opereation that will perform on the data such as searching sorting , adding , and removing can be perform by java collection.
-				collection represent single element object framework provide readyment architecture collection represent set of classes and interfaces 
-
-
-___________________________________________________________________________________________________________________________________________
-
-✨ List interface :
-				i) ArrayList Class :
-									java arraylist class is a dynamic array for sorting the elements it inherit from abstract arraylist class and implement from list interface 
-									
-									
-					Imp points :
-								1)array list class can contain some duplicate elements 
-								2) it maintain insertion order
-								3) it is non synchronize so thread is unsafe 
-								4) it allow random access interface because array work on index bases
-								5) in a array list the manuplation is slow because shifting is needed 
-								6) arraylist uses dynamic array to store the elemets of object 
-								
-		
-							
-							
-							
-							

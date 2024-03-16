@@ -80,14 +80,14 @@ ________________________________________________________________________________
 
 
 😁 Exception handling : 
-						undexpected unwanted event that disturb the normal flow of program is known as Exception
-						Tyer puncher exception
+						unexpected unwanted event that disturb the normal flow of program is known as Exception
+						Tyre punchter exception
 						Sleeping exception
-						Holl Tickit missiong exception
+						Hall Ticket missing exception
 						File not found exception
 						
 						It is highly recommanded to handle exception the main objective or exception handling is 
-						meaningfull the exception handling doesnot mean by repairing the exception we have to provide 
+						meaningful the exception handling doesnot mean by repairing the exception we have to provide 
 						alternate way to continue rest of program normally this concepts is known as exception handling
 						
 						Example: A programmer require to read the data from remote file located at Katmandu
