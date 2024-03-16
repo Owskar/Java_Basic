@@ -1,8 +1,7 @@
-// Vector
 import java.util.*;
-class C2{
+class C3{
 	public static void main(String args[]){
-		Vector<String>l= new Vector<String>();
+		LinkedList<String>l= new LinkedList<String>();
 		
 		l.add("Kritika");
 		l.add("Shraddha");
@@ -10,12 +9,14 @@ class C2{
 		l.add("Pratiksha");
 		
 		System.out.println("Manoj Chi lisst "+l);
-	Vector<String>A=new Vector<String>();
+		
+			LinkedList<String>A=new LinkedList<String>();
 	A.add("Tanvi");
 	A.add("Sakshi");
 	A.add("Pratiksha");
 	A.add("Sneha");
 	A.add("Tanvi");
+	
 	
 	
 		//addAll
@@ -74,34 +75,23 @@ class C2{
 	Collections.sort(A);
 	System.out.println("\nSorted list is :"+A);
 	
+	//addFirst()
 	
-	//Collections.sort
-	Collections.sort(A);
-	System.out.println("\nSorted list "+A);
+	A.addFirst("Tanvi");
+	System.out.println("\n addFirst :"+A);
 	
-	// remove if
+	//addLast()
 	
-	A.removeIf(str->str.contains("sanjana"));
+	A.addLast("Sneha");
+	System.out.println("\n addLast :"+A);
 	
-	System.out.println("\nremove if sanjana is presnet :"+A);
-
-//addElement
-	A.addElement("Pratiksha");
+	//removeFirst
 	
-	System.out.println("\naddElement(Pratiksha) :"+A);
+	A.removeFirst();
+	System.out.println("\n removeFirst()"+A);
 	
-	//Capacity
-	System.out.println("Capacity of vector is "+A.capacity());
-	
-	//removeElement
-	A.removeElement("Pratiksha");
-	System.out.println("\nremoveElement(Pratiksha) :"+A);
-	
-	//removeElementAt
-	A.removeElementAt(1);
-	System.out.println("\nremoveElementAt(1) :"+A);
-	
-	//Hashcode
-	System.out.println("Hashcode :"+A.hashCode());
+	//removeLast
+	A.removeLast();
+	System.out.println("\n removeLast() :"+A);
 	}
 }

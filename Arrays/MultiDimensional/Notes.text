@@ -86,5 +86,43 @@ Difference between ArrayList and linkedlist
 					3) LinkedList is better for manuplation of data .
 					4) In  LinkedList it doesnot access ranodm access interface.
 					
+
+Vector class :-
+				Vector is dynamic array which can grow its size vector can store number of elements there is no size limit
+				
+IMP of vector :-
+				1) Vector is resizable 
+				2) Vector maintain the insertion order 
+				3) Null insertion is possible 
+				4) it allow homoginious and heteroginious elements 
+				5) it is serializable , random access interface and clonable
+				6) It is synchronized and thread safe .
+				7) frequently operation is retrived
+
+
+Difference between arraylist and vector :
+
+
+
+			ArrayList :-
+						1) Arraylist is non Synchronized.
+						2) Arraylist is not thread safe 
+						3) relative performance is high.
+						4) at a time multiple threads are allow to operate on arraylist
+						
+			Vector :- 
+						1) Vector is synchronized
+						2) Vector is thread safe.
+						3) relative performance is low
+						4) at a time only one thread is allow to operate on method
+						
+						
+						
+Stack class : 
+
+			Stack is child of vector stack is linear datastructure that is used to store collection object stack is base on LIFO(Last in first out) the push , pop ,search, empty these are methods of stack  
+
+
+					
 					
 					
