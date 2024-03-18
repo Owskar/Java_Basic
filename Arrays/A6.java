@@ -11,6 +11,7 @@ class A6{
 		}
 		System.out.println("total Number of 4 : "+cnt);
 	}
+	
 	public static void main(String args[]){
 		int a[]={1,2,3,4,5,4,4,6,7};
 		counter(a);

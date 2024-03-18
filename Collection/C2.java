@@ -85,13 +85,13 @@ class C2{
 	
 	System.out.println("\nremove if sanjana is presnet :"+A);
 
-//addElement
+	//addElement
 	A.addElement("Pratiksha");
 	
 	System.out.println("\naddElement(Pratiksha) :"+A);
 	
 	//Capacity
-	System.out.println("Capacity of vector is "+A.capacity());
+	System.out.println("Capacity of vector is "+qA.capacity());
 	
 	//removeElement
 	A.removeElement("Pratiksha");
