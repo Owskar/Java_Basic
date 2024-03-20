@@ -15,7 +15,7 @@ class A1{
 		
 		// itrators
 		
-		for(int a1:a){
+		for( int a1:a){
 			System.out.println(a1);
 		}
 		

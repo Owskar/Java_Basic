@@ -7,7 +7,7 @@
 	isEmpty
 	clear
 	size
-
+   
 */
 import java.util.*;
 class Q7{
