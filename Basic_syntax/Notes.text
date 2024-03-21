@@ -1,0 +1,36 @@
+❤️20-03-2024
+
+Difference between set and list
+
+
+	list :
+		1) in a list duplicate elements are allowed
+		2)insertion order is maintained 
+		
+	set :
+		1) in a set duplicate elements are not allowed
+		2) Most of time insertion order is not maintained.
+		
+		
+Hash set class :
+				Hash set class is used to create collection object and used hash table to store hash set inherit from abstract set class and implement from set interface 
+				 Iterable
+				    |
+				collection
+					|
+				   set
+					|
+				Abstract Set
+					|
+				Hash set
+				
+				
+Important point of hash set class : 
+									1) It store element by using hashing machanism 
+									2) Hash set contain only unique element
+									3) It allow null value 
+									4) It is non synchronized
+									5) It doesnot maintain insertion order 
+									6) 
+									
+				

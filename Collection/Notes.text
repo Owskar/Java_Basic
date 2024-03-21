@@ -1,0 +1,164 @@
+❤️20-03-2024
+
+Difference between set and list
+
+
+	list :
+		1) in a list duplicate elements are allowed
+		2)insertion order is maintained 
+		
+	set :
+		1) in a set duplicate elements are not allowed
+		2) Most of time insertion order is not maintained.
+		
+		
+Hash set class :
+				Hash set class is used to create collection object and used hash table to store hash set inherit from abstract set class and implement from set interface 
+				 Iterable
+				    |
+				collection
+					|
+				   set
+					|
+				Abstract Set
+					|
+				Hash set
+				
+				
+Important point of hash set class : 
+									1) It store element by using hashing machanism 
+									2) Hash set contain only unique element
+									3) It allow null value 
+									4) It is non synchronized
+									5) It doesnot maintain insertion order 
+									6) 
+
+LinkedHashSet :
+				LinkedHashSet class is a hash table and linkedlist implementation of set Interface it inherit the hashset class and implement the set interface 
+				
+				Iterable
+				    |
+				collection
+					|
+				   set
+					|
+				Abstract Set
+					|
+				Hash set
+					|
+				LinkedHashSet
+				
+
+Important Points of LinkedHashSet class :
+				1) It contains unique element 
+				2) It is non-Synchronized 
+				3) It maintain insertion order 
+
+TreeSet class :
+				Tree set class implement the set interface that uses tree for storage 
+				Iterable
+				    |
+				collection
+					|
+				   set
+					|
+				Sorted Set
+					|
+				Navigable set
+					|
+				TreeSet
+
+
+Important Points of TreeSet Class :
+						1) It contain unique element
+						2) access and retrival are quite fast 
+						3) It doesnot allow null value
+						4) It is non synchronized 
+						5) It maintain accending order 
+						
+						
+Queue :
+		Java queue interface order the element in first in first out (FIFO) first element remove first and last element removed last 
+PriorityQueue class :
+			PriorityQueue class provide the facility of queue but it doesnot maintain the order FIFO 
+
+
+Dequeue Interface :
+					it is a linear collection that support the element to add and remove from both side 
+					
+ArrayDequeue class :
+					it provide the facility of resizeble array it inherit abstract collection class and implement from dequeue interface 
+					
+Important points of arraydequeue class :
+					1) It can add and remove element from both side 
+					2) null element are not allowed
+					3) ArrayDequeue is not thred safe 
+					4) It is faster than linked list and stack 
+					
+					
+Map :
+
+	Map contains value on the basis of key that is key and value pair each key and value pair is known as entry
+	map contains unique key . Map is usful for search , update delete element on the basis of key there are two interface for implement mapping of java that is map interface and sorted map there are three classes that is 
+	HashMap
+	LinkedHashMap
+	TreeMap
+	
+	
+			Map(I)
+     ___________|___________
+	|						|
+SortedMap(I)			HashMap()
+	|						|
+TreeMap				  LinkedHashMap
+
+
+
+Map doesnot allow duplicate key but can have duplicate value hashmap and linkedHashmap allow null value but tree map doesnot allow null value
+
+
+Hashmap class
+			It implement java map interface which allow to store the key and value pair where key should be unique if you try to insert duplicate key it will be replace the corresponding key 
+			Hashmap class is non-synchronized it allow only one null value Hashmap uses hashTable to store the element 
+			
+Important points of Hashmap class : 
+					1) HashMap class contain value base on key
+					2) It contain only unique key
+					3) It may have only one null key and multiple null value 
+					4) It is non Synchronized and doesnot maintain insertion 
+					5) default capacity is 16
+					
+					
+LinkedHashMap : 
+				LinkedHashMap class is a hash table and linkdlist implementation of map interface it inherit the hashmap class and implement the map interface 
+				
+				
+IMP of LinkedHashMap :
+					1) It contain value on basis of key 
+					2) it contaion unique key 
+					3) it may have 1 null key and multiple null value 
+					4) IT IS non synchronized
+					5) It  maintain insertion order 
+					6) default capacity is 16
+					
+					
+					
+TreeMap() : 
+			java TreeMap class provide efficient map for storing key and value pair in assnending order .
+			
+			interface 
+				   Map
+				    |
+				SortedMap
+					|
+				   Navigable Map
+					|
+				TreeMap
+					|
+Important point :
+				1) iT CONtains on the basis of key 
+				it implemented from navigable map 
+				and extended from abstract map class 
+				It doesnot allow null key but have multiple null value 
+				it is non synchronized
+				It mainatin the assending order 
