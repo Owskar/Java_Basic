@@ -1,0 +1,25 @@
+21-03-2024
+Interface :
+			Interface is just like a class only they contains final data member and abstract method 
+			java does not suppot multiple inheritance  to achieve this we can use interface an interface define set of method but does not implement them an interface define by using two component 
+			1) interface declearation
+			2) interface body
+			
+	1) interface declearation :
+					It contains the name of interface 
+					
+	interface body : it contaions constant method declearation for the interface
+	the interface can be define by using following syntax
+	
+	interface interfaceName{
+	
+	final datamember;
+	abstract methodI();
+	abstract methodII();
+	
+	}
+Features of interface :
+						It is used to define a standards 
+						Interface cannot be implement by method
+						a class can be define from single interface or multiple interface byy using special keyword 
+						"implements" 

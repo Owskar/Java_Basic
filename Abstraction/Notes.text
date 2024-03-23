@@ -1,5 +1,28 @@
 ❤️ 21-03-2024
 
 ✨ Abstraction :
+				hiding the internal workig and showing the set of services 
+				ATM gui
+Abstract method :
+				 If method just declear not defined then such method is called as abstract method 
+				 
+Abstract class : 
+				A class which contains abstract method then such class is called as abstract class 
 				
+Abstract method and abstract class can be define by using special modifier "abstract"
 
+example :
+		 abstract class className{
+		 
+			abstract public void area();		 
+		 }
+	
+we cant create object of abstract class but if we require we can use it refrances 
+
+Box b1; (Allowed)
+b1=new Box(); (Not allowed)
+
+Such class are use to define and achieve polymorphism through dynamic linking 
+
+multiple classes can be derived from single abstract class 
+it is compulsory to override all abstract method in derived class otherwise derived class become abstract class 

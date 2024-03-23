@@ -1,0 +1,46 @@
+//
+DM - name
+	city
+	wages
+	wdays
+	
+mf-	setdata
+	showdata
+	payment
+	
+	
+Emp
+override
+
+manager
+Dm-commission
+mf-override
+
+//
+
+
+
+ex 2)
+
+RBI
+ DM -ROI 
+ MF -setdata
+	 showdata
+	 
+Bank
+ DM- BankName
+	 city
+	 
+ Mf - setdata
+	  showdata
+	  deposite
+	  withdraw
+	  showbal
+	  
+savingAccount 
+ DM - accNo
+      Balance
+	  name
+ MF -
+	 override()
+
