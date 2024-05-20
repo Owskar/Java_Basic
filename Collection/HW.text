@@ -1,0 +1,11 @@
+HW java : 1) write a program to implement following methods in array list
+            add
+            addAll
+            remove 
+            removeAll
+            isEmpty
+            clear
+            size
+
+        2) write a program to compare 2 hash set class
+        3) write a program to iterate tree set and add two treeset and get first and last element from the tree set

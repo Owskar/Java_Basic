@@ -1,0 +1,8 @@
+1) write a program to design student datatype containing rollno name percentage and add five element in linked list
+2) perform any 12 method of string 
+3) write a progrm for generic collectiton vector and implement five method of vector
+4) implement 5 method of treemap
+5) write a program to implement class as immutable 
+6) write a program to implement 7 method of treeset
+7) implement follwing method of thread
+	yield setname getname stop suspend
